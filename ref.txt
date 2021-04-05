@@ -1,0 +1,2 @@
+https://medium.com/analytics-vidhya/tensorflow-2-object-detection-api-using-custom-dataset-745f30278446
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#create-tensorflow-records
