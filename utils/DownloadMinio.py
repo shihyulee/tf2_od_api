@@ -20,12 +20,12 @@ def download_images(project_dir, project_name, bucket):
 
     #  建立下載目標之 list
     image_list = []
-    objects = client.list_objects(bucket, prefix="images/")
+    objects = client.list_objects(bucket, prefix=image_folder)
     for obj in objects:
         image_list.append(obj.object_name)
 
     label_list = []
-    objects = client.list_objects(bucket, prefix="labels/")
+    objects = client.list_objects(bucket, prefix=label_folder)
     for obj in objects:
         label_list.append(obj.object_name)
 
